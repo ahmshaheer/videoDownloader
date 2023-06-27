@@ -1,0 +1,59 @@
+.tiktok-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.tiktok-heading {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 20px;
+}
+.tiktok-inserting-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 20px;
+}
+input {
+  width: 30%;
+  padding: 7px;
+  font-family: "Rubik", sans-serif;
+}
+.submit-button {
+  margin: 3px 13px;
+  color: black;
+  background-color: white;
+  border: none;
+  font-family: "Rubik", sans-serif;
+}
+.submit-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.video-downloader-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height: 90%;
+}
+.tiktok-video-downloader {
+  margin: 10px 30px;
+  width: 35%;
+  display: flex;
+  border: 2px solid black;
+}
+.imageUrl {
+  width: 26%;
+  height: 40vh;
+  margin-right: 13px;
+}
+.href-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
